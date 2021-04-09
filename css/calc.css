@@ -40,6 +40,10 @@ body {
     position: relative;
 }
 
+.calc > .key.yellow {
+    background-color: yellow;
+}
+
 .calc > .key::before {
     content: attr(data-symbol);
     position: absolute;
